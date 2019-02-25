@@ -1,0 +1,22 @@
+生成requirements.txt文件    pip freeze > requirements.txt
+
+
+安装requirements.txt依赖    pip install -r requirements.txt
+
+
+直接输入 python -m venv python_ven_demo (虚拟环境文件夹名，直接在桌面建立了文件夹，同时生成了虚拟环境）  
+
+
+django-admin startproject MxOnline
+
+python manage.py startapp users
+
+python manage.py startapp course
+
+python manage.py startapp organization
+
+python manage.py startapp operation
+
+python manage.py makemigrations
+
+python manage.py migrate
